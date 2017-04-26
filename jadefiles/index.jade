@@ -1,0 +1,85 @@
+doctype html
+
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='main.css')
+  link(href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet")
+  title C3AS3 Portfolio
+  
+body
+  header
+    nav.site-nav
+      ul
+        li.active: a(href="#welcomeSection") Welcome
+        li: a(href="#aboutSection") About
+        li: a(href="#skillSection") Skills
+        li: a(href="#portfolioSection") Portfolio
+        li: a(href="#contactSection") Contact
+        
+  .home-sections
+    section.welcomeSection
+      h3 TechBytes
+      p This site is created to showcase my work and abilities. Self-taught Full-Stack Developer ready to tackle any challenge you may have.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      
+    section.aboutSection
+      h3 About Me
+      .aboutMePic
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      
+    section.skillSection
+      h3 Skills & Abilities
+      .programmingContainer
+        h4 Programming Skills <hr>
+        ul
+          li Basic PHP
+          li Visual Basic
+          li HTML
+          li CSS
+        ul
+          li Node.js
+          li MongoDB
+          li Express
+          li Jade
+          
+      .desktopContainer  
+        h4 Desktop Support <hr>
+        ul
+          li Windows
+          li Mac
+          li Linux
+          li Registry
+          li Troubleshooting
+        ul
+          li Printer Break/Fix
+          li PC Break/Fix
+          li Hard Drive Imaging
+          li Software Support
+          li AD Support
+          
+    section.portfolioSection
+      h3 Portfolio
+      .imageContainer
+        .placeHolder
+        .placeHolder
+        .placeHolder
+        .placeHolder
+        .placeHolder
+        .placeHolder
+        
+    section.contactSection
+      h3 Contact Me
+      .linkedInImage
+      form
+        p First Name<br/><input type="text" name="first_name" placeholder="John"><br/>
+        p Last Name<br/><input type="text" name="last_name" placeholder="Doe"><br/>
+        p Email<br/><input type="text" name="email" placeholder="email@domain.com"><br/>
+        p Message<br/><textarea rows="3" type="text" name="message" placeholder="Enter Text Here..."></textarea>
+        button Submit
+      .twitterImage
+    
+    section.footerSection
+      h3 Footer
+      p All Rights Reserved. TechBytes 2017
+    

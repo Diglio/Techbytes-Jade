@@ -1,0 +1,31 @@
+section.portfolioSection
+  grid-column: 1 / 13
+  background-color: #95A5A6
+  display: grid
+  justify-items: center
+  grid-template-columns: repeat(6, 1fr)
+  grid-template-rows: 1fr
+
+  h3
+    font-size: 32px
+    grid-column: 1 / 7
+
+  .imageContainer
+    grid-column: 1 / 7
+    display: grid
+    justify-items: center
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: auto
+    grid-gap: 40px
+    margin-bottom: 40px
+
+    .placeHolder
+      width: 350px
+      height: 150px
+      background-color: #cccccc
+      border-radius: 10px
+      transform: scale(1.0)
+      transition: all 1000ms ease-in-out
+
+      &:hover
+        transform: scale(1.2)
